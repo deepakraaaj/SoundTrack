@@ -4,7 +4,7 @@ SoundCraft Studio is a music theory intelligence, mastery, and arrangement engin
 
 This `master` branch contains the heavyweight standalone Desktop C++ Architecture. It features decoupled internal engines (`HarmonyEngine`, `RhythmEngine`, `TheoryEngine`, `AnalyzerEngine`, `ArrangementEngine`) managed by a central `LearningOrchestrator` State Manager, which drives purely native JUCE UI `Component` views, including a custom multi-waveform `juce::Synthesiser` and a fully interactive Piano layout derived directly from the application's C++ DSP graph.
 
-## 🚀 Native Compilation & Installation
+## Native Compilation & Installation
 
 Because this application relies on low-level Audio DSP processors via JUCE, it must be compiled locally on your machine using CMake. 
 
@@ -51,7 +51,7 @@ Launch the graphical interface:
 
 ---
 
-## 🎵 Features Overview
+## Features Overview
 
 - **Instrument Engine**: Embedded Sine, Square, Sawtooth, and Triangle wave synthesisers mapped to an interactive `MusiccaKeyboardComponent`.
 - **JSON Payload Import**: Direct ChatGPT/AI prompt processing. Feed the system song metadata and it mathematically tracks and renders progression motifs.
