@@ -1,0 +1,37 @@
+{
+    "name": "Beethoven's 5th Symphony (Motif)",
+    "key": "C Minor",
+    "tempo": 108,
+    "chordProgression": [
+        {
+            "name": "Cm",
+            "midiNotes": [
+                48,
+                51,
+                55
+            ]
+        }
+    ],
+    "melodyTrack": [
+        {
+            "note": 67,
+            "startTicks": 0,
+            "durationTicks": 120
+        },
+        {
+            "note": 67,
+            "startTicks": 120,
+            "durationTicks": 120
+        },
+        {
+            "note": 67,
+            "startTicks": 240,
+            "durationTicks": 120
+        },
+        {
+            "note": 63,
+            "startTicks": 360,
+            "durationTicks": 480
+        }
+    ]
+}

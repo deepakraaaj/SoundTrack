@@ -1,0 +1,37 @@
+{
+    "name": "Kathal Enum Therveludhi (Motif)",
+    "key": "G Minor",
+    "tempo": 120,
+    "chordProgression": [
+        {
+            "name": "Gm",
+            "midiNotes": [
+                43,
+                46,
+                50
+            ]
+        }
+    ],
+    "melodyTrack": [
+        {
+            "note": 55,
+            "startTicks": 0,
+            "durationTicks": 240
+        },
+        {
+            "note": 58,
+            "startTicks": 240,
+            "durationTicks": 120
+        },
+        {
+            "note": 55,
+            "startTicks": 360,
+            "durationTicks": 120
+        },
+        {
+            "note": 53,
+            "startTicks": 480,
+            "durationTicks": 480
+        }
+    ]
+}
